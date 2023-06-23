@@ -1,0 +1,22 @@
+{% set pagetitle = 'Select an authentication source'|trans %}
+{% extends "base.twig" %}
+
+{% block content %}
+    <h2>{{ 'Select an authentication source'|trans }}</h2>
+    <p>{{ 'The selected authentication source will be used to authenticate you and and to create a valid session.'|trans }}</p>
+
+    <form action="{{ selfUrl|escape('html') }}" method="get">
+        <input type="hidden" name="AuthState" value="{{ authstate|escape('html') }}">
+        <ul>
+        {% for key, source in sources %}
+            {% set button = ('button-' ~ source.source) %}
+	    <li class="{{ source.css_class|escape('html') }} authsource">
+            <input type="submit" name="source" id="{{ button|escape('html') }}" value="{{ source.text|escape('html') }}"{%- if source.source == preferred %} autofocus{% endif -%}>
+            {% if source.help %}
+              <p>{{ source.help|escape('html') }}</p>
+            {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    </form>
+{% endblock %}

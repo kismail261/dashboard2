@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="infragistics.core" level="application" />
+    <orderEntry type="library" name="infragistics.excel_serialization_openxml" level="application" />
+    <orderEntry type="library" name="infragistics.ext_core" level="application" />
+    <orderEntry type="library" name="infragistics.ext_collections" level="application" />
+    <orderEntry type="library" name="infragistics.ext_text" level="application" />
+    <orderEntry type="library" name="infragistics.ext_io" level="application" />
+    <orderEntry type="library" name="infragistics.documents.core_core" level="application" />
+    <orderEntry type="library" name="infragistics.xml" level="application" />
+    <orderEntry type="library" name="infragistics.documents.core_openxml" level="application" />
+    <orderEntry type="library" name="infragistics.ext_ui" level="application" />
+    <orderEntry type="library" name="infragistics.lob" level="application" />
+    <orderEntry type="library" name="infragistics.ext_collectionsextended" level="application" />
+    <orderEntry type="library" name="infragistics.excel_core" level="application" />
+    <orderEntry type="library" name="infragistics.ext_threading" level="application" />
+    <orderEntry type="library" name="infragistics.ext_web" level="application" />
+  </component>
+</module>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{infragistics.core, infragistics.documents.core_core, infragistics.documents.core_openxml, infragistics.excel_core, infragistics.excel_serialization_openxml, infragistics.ext_collections, infragistics.ext_collectionsextended, infragistics.ext_core, infragistics.ext_io, infragistics.ext_text, infragistics.ext_threading, infragistics.ext_ui, infragistics.ext_web, infragistics.lob, infragistics.xml}" />
+  </component>
+</project>
